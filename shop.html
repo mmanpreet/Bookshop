@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Conestoga bookstore</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bookstore.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+        </script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Conestoga bookstore</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookstorestaff.html">Staffinfo</a></li>
+                <li><a href="info.html">Bookstoreinfo</a></li>
+                <li><a href="contact.html">Feedback</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="refund.html">Refund</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Shop at Conestoga Bookstore</h2>
+            <div class="shop">
+                <img src="images/images.jpg" alt="Conestoga Bookstore Hoddies">
+                <p>We have got some new hoddies and t-shirts here at the Bookstore. $20.99</p>
+                <form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+                    <input type="hidden" name="desc1" id="desc1" value="Bookstore Hoddies">
+                    <input type="hidden" name="cost1" id="cost1" value="20.99">
+                    <input type="submit" value="Add to Cart">
+                </form>
+            </div>
+            <div class="shop">
+                <img src="images/images%20(3).jpg" alt="Conestoga bookstore"width="150" height="150">
+                <p>A Conestoga sweatshirt will warm you up on cool morning walks. $24.95</p>
+                <form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+                    <input type="hidden" name="desc2" id="desc2" value="Conestoga Sweatshirt">
+                    <input type="hidden" name="cost2" id="cost2" value="24.95">
+                    <input type="submit" value="Add to Cart">
+                </form>
+            </div>
+        </main>
+        <footer>
+            Copyright &copy; 2018 Conestoga Bookstore<br>
+            <a href="mailto:bookstore@conestogac.on.ca">bookstore@conestogac.on.ca</a>
+        </footer>
+    </div>
+</body>
+
+</html>
